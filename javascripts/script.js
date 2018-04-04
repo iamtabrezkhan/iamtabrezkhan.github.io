@@ -17,7 +17,6 @@ $(document).ready(function () {
             'scrollTop': $(hash).offset().top+2
         }, 300, 'swing', function () {
             window.location.hash = hash;
-            $(document).on("scroll", onScroll);
         });
     });
 
