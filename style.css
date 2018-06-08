@@ -11,7 +11,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	background: #0091ea;
+	background: #c62615;
 	color: #202020;
 	padding: 10px 0px;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
@@ -114,13 +114,13 @@ body {
 .sidebar-logo {
 	width: 100%;
 	text-align: center;
-	color: #0091ea;
+	color: #c62615;
 	font-size: 2rem;
 	font-family: 'Merriweather', serif;
 	letter-spacing: 2px;
 	padding: 30px 0px;
 	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-	border-bottom: 1px solid #0091ea;
+	border-bottom: 1px solid #c62615;
 }
 
 .sidebar-logo .lastname {
@@ -145,7 +145,7 @@ body {
 	display: block;
 	background: transparent;
 	text-decoration: none;
-	color: #0091ea;
+	color: #c62615;
 	font-family: 'Mina', sans-serif;
 	font-size: 1.2rem;
 	padding: 10px 30px;
@@ -154,7 +154,7 @@ body {
 }
 
 .sidebar-menu ul li a:hover {
-	background: #0091ea;
+	background: #c62615;
 	color: #202020;
 }
 
@@ -197,7 +197,7 @@ body {
 
 .about-title h2 {
 	display: inline-block;
-	border-bottom: 2px solid #0091ea;
+	border-bottom: 2px solid #c62615;
 }
 
 .skill-set-title {
@@ -210,7 +210,7 @@ body {
 
 .skill-set-title h2 {
 	display: inline-block;
-	border-bottom: 2px solid #0091ea;
+	border-bottom: 2px solid #c62615;
 }
 
 .work-title {
@@ -223,7 +223,7 @@ body {
 
 .work-title h2 {
 	display: inline-block;
-	border-bottom: 2px solid #0091ea;
+	border-bottom: 2px solid #c62615;
 }
 
 .contact-title {
@@ -236,7 +236,7 @@ body {
 
 .contact-title h2 {
 	display: inline-block;
-	border-bottom: 2px solid #0091ea;
+	border-bottom: 2px solid #c62615;
 }
 
 .my-info {
@@ -256,13 +256,13 @@ body {
 }
 
 .my-info .dot {
-	color: #0091ea;
+	color: #c62615;
 	font-size: 6rem;
 	font-family: sans-serif;
 }
 
 .my-info .developer {
-	color: #0091ea;
+	color: #c62615;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -276,7 +276,7 @@ body {
 
 .my-info .info a {
 	text-decoration: none;
-	color: #0091ea;
+	color: #c62615;
 }
 
 .my-info .social-handles a {
@@ -320,7 +320,7 @@ body {
 }
 
 .my-photo .photo {
-	border: 5px solid #0091ea;
+	border: 5px solid #c62615;
 	border-radius: 10px;
 	box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
 	overflow: hidden;
@@ -374,7 +374,7 @@ body {
 .contactme-button a {
 	text-decoration: none;
 	color: #202020;
-	background: linear-gradient(to bottom right, #0091ea, #51bcff);
+	background: linear-gradient(to bottom right, #c62615, #51bcff);
 	padding: 5px 15px;
 	border-radius: 20px;
 	box-shadow: 1px 5px 5px -2px rgba(0, 0, 0, 0.5);
@@ -426,7 +426,7 @@ body {
 
 .javascript .percentage {
 	width: 0px;
-	background: #0091ea;
+	background: #c62615;
 	transition: all ease-in-out 0.5s;
 }
 
@@ -479,10 +479,10 @@ body {
 }
 
 .work-card .card {
-	border: 2px solid #0091ea;
+	border: 2px solid #c62615;
 	box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
 	position: relative;
-	background: #0091ea;
+	background: #c62615;
 	overflow: hidden;
 	transition: all ease-in-out 0.3s;
 }
@@ -587,12 +587,12 @@ body {
 }
 
 .form input:focus, .form textarea:focus {
-	border: 1px solid #0091ea;
-	box-shadow: 2px 2px 10px #0091ea;
+	border: 1px solid #c62615;
+	box-shadow: 2px 2px 10px #c62615;
 }
 
 .form input:hover, .form textarea:hover {
-	box-shadow: 1px 1px 10px #0091ea;
+	box-shadow: 1px 1px 10px #c62615;
 }
 
 .form input::placeholder, .form textarea::placeholder {
@@ -606,7 +606,7 @@ body {
 	border: none;
 	padding: 5px 15px;
 	color: #202020;
-	background: linear-gradient(to bottom right, #0091ea, #51bcff);
+	background: linear-gradient(to bottom right, #c62615, #51bcff);
 	border-radius: 20px;
 	box-shadow: 1px 5px 5px -2px rgba(0, 0, 0, 0.5);
 	margin-right: 5px;
@@ -683,7 +683,7 @@ body {
 		flex-wrap: wrap;
 		flex-direction: row-reverse;
 		width: 100%;
-		background: #0091ea;
+		background: #c62615;
 		padding: 10px 0px;
 		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 		top: 0px;
@@ -720,7 +720,7 @@ body {
 	}
 
 	.my-photo .photo {
-		border: 3px solid #0091ea;
+		border: 3px solid #c62615;
 	}
 
 	.skill-bars {
@@ -817,7 +817,7 @@ body {
 		flex-wrap: wrap;
 		flex-direction: row-reverse;
 		width: 100%;
-		background: #0091ea;
+		background: #c62615;
 		padding: 15px 0px;
 		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 		top: 0px;
