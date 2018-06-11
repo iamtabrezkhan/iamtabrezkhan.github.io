@@ -1,0 +1,197 @@
+:root {
+	font-size: 16px;
+}
+
+body {
+	background: url(images/bg_1.jpg);
+	background-repeat: repeat;
+}
+
+a {
+	outline: none !important;
+}
+
+.unread-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	background: #1aaf65;
+}
+
+.unread-circle p {
+	line-height: 30px;
+}
+
+.navbar-brand {
+	outline: none !important;
+}
+
+.navbar-brand img {
+	width: 40px;
+	height: 40px;
+}
+
+.my-pd-t {
+	padding-top: 65px;
+}
+
+.message {
+	transition: all ease-in-out 0.2s;
+}
+
+.message:hover {
+	background: #e5e5e5 !important;
+}
+
+.message a {
+	color: #202020;
+	text-decoration: none !important;
+}
+
+.message a:hover {
+	color: #202020;
+}
+
+.message-text {
+	color: #636363 !important;
+	font-size: 0.9rem;
+}
+
+.arrow-cont {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.back-arrow {
+	align-self: center;
+}
+
+.back-arrow a {
+	color: white;
+	font-size: 1.6rem;
+	text-decoration: none;
+	transition: all ease-in-out 0.2s;
+}
+
+.back-arrow a:hover {
+	color: #d8d8d8 !important;
+	cursor: pointer;
+}
+
+.name-cont {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sender-name {
+	align-self: center;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.icons div {
+	align-self: center;
+	color: white;
+	font-size: 1.2rem;
+	margin-right: 20px;
+	transition: all ease-in-out 0.2s;
+}
+
+.icons div:hover {
+	color: #d8d8d8;
+	cursor: pointer;
+}
+
+.sender-box {
+	background: white;
+	padding: 3px;
+	max-width: 90% !important;
+}
+
+.receiver-box {
+	background: #E3FEC8;
+	padding: 3px;
+	max-width: 90% !important;
+}
+
+.message-container {
+	position: relative;
+}
+
+.message-input i {
+	font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.my-pd-t {
+		padding-top: 65px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.message-text {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 502px) {
+	.back-arrow a {
+		font-size: 1rem;
+	}
+
+	.sender-name {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 378px) {
+	.sender-name {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 328px) {
+	.sender-name {
+		font-size: 0.7rem;
+	}
+
+	.back-arrow a {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.icons div {
+		font-size: 0.9rem;
+	}
+
+	.my-pd-t {
+		padding-top: 65px;
+	}
+}
+
+@media screen and (max-width: 367px) {
+	.icons div {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.my-pd-t {
+		padding-top: 65px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-pd-t {
+		padding-top: 65px;
+	}
+}
