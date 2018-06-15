@@ -66,7 +66,7 @@ button:hover {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 999;
-	top: -200px;
+	top: -400px;
 	opacity: 0;
 	transition: all ease-in-out 0.3s;
 }
