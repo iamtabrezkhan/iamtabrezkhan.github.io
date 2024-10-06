@@ -1,0 +1,31 @@
+<nav>
+  <div class="welcome">Welcome</div>
+  <div class="items-container">
+    <div class="item">
+      <a class="{{ 'active' if '/' == page.url }}" href="{{ '/' | url }}"
+        >Home</a
+      >
+    </div>
+    <div class="item" class="item">
+      <a
+        class="{{ 'active' if '/about' in page.url }}"
+        href="{{ '/about' | url }}"
+        >About</a
+      >
+    </div>
+    <div class="item">
+      <a
+        class="{{ 'active' if '/blog' in page.url }}"
+        href="{{ '/blog' | url }}"
+        >Blog</a
+      >
+    </div>
+    <div class="item">
+      <a
+        class="{{ 'active' if '/contact' in page.url }}"
+        href="{{ '/contact' | url }}"
+        >Contact</a
+      >
+    </div>
+  </div>
+</nav>
